@@ -1004,7 +1004,7 @@ h1,h4{
 .subscription{
     padding:150px 0;
     height: 400px;
-   margin-bottom: 250px;
+    margin-bottom: 250px;
 }
 /*subscribe-title*/
  .subscribe-title {margin-bottom: 52px;}
@@ -1028,6 +1028,7 @@ h1,h4{
     text-align: center;
     max-width: 630px;
     margin:0 auto;
+    
 }
 
 .subscription-input-group .subscription-input-form{
@@ -1054,7 +1055,7 @@ h1,h4{
 }
 
 .form-group{
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 @media (min-width: 768px) {
