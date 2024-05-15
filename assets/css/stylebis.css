@@ -663,13 +663,14 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 /*-------------------------------------
         8. Reviews
 --------------------------------------*/
+.avis{
+    padding: 30px;
+}
 
 .testimonial_wrap .carousel-container{
     max-width: 1180px;
     margin: 0 auto;
 }
-
-
 
 .inner{
     position: relative;
@@ -739,14 +740,20 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     
 }
 
+
+
 /*-------------------------------------       
         9.  Countdown timer
 --------------------------------------*/
 
+.countdown-overlay{
+    background:rgba(255, 123, 0, 0);
+   
+}
+
 #countdown-timer{
     box-sizing: border-box;
     background:url(../../assets/images/counter/part-famous-eiffel-tower-with-blue-sky-paris-france.jpg)no-repeat fixed;
-    filter : opacity(70%);
     background-position: center;
     font-family: 'Barlow', sans-serif;
     font-size: 20px;
@@ -762,11 +769,13 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     
 }
 
+
+
 #countdown-timer h1{
     font-weight: normal;
     font-size: 60px;
     margin: -150px 0 40px;
-    color: #ff545a;
+    color: #fff;
     filter: none;
     margin-top: 0px;
 }
@@ -791,7 +800,11 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     font-size: 36px;
     line-height: 1;
     margin: 0 0 5px; 
-    color:#dde0e4;
+    color:#fff;
+}
+
+.time h2 small{
+    color:#fff;
 }
 
 @media(max-width: 500px){
