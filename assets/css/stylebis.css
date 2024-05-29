@@ -747,6 +747,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 .countdown-overlay{
     background:rgba(255, 123, 0, 0);
    
+   
 }
 
 #countdown-timer{
@@ -764,6 +765,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     text-align: center;
     margin: 0;
     overflow: hidden;
+   
     
 }
 
